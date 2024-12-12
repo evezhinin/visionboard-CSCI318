@@ -1,0 +1,35 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+  
+.quiz-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4; 
+}
+  
+.quiz-content {
+    text-align: center;
+    padding: 20px;
+}
+  
+.quiz-content-title {
+    font-family: 'Arial', sans-serif;
+    font-size: 3rem;
+    color: #333333;
+}
+  
+.quiz-content-heading {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2rem;
+    color: black;
+  
+    border-radius: 10px;
+    padding: 20px 0px 20px 0px;
+    margin: 0px 200px 0px 200px;
+}
+  

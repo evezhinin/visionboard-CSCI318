@@ -1,0 +1,65 @@
+
+  .quiz-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    gap: 15px; 
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto; 
+  }
+  
+  .category-item {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px; 
+    margin-left: 150px; 
+  }
+  
+  .category-item input[type="checkbox"] {
+    accent-color: #9F9FED;
+    margin: 0;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .category-item label {
+    font-size: 1rem;
+    color: #0F174B;
+    font-weight: bold;
+    margin: 0; 
+  }
+  
+  .category-item label:hover {
+    color: #E28E69;
+  }
+  
+  .next-button {
+    background-color: #DCC0E4;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .next-button:hover {
+    background-color: #9F9FED;
+    transform: scale(1.05);
+  }
+  
+  .next-button:active {
+    background-color: #E28E69;
+  }
+  
+  .next-button:focus {
+    outline: 2px solid #0F174B;
+  }
+  
+  

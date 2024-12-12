@@ -1,0 +1,227 @@
+:root {
+    --background-color: #dcc0e4;
+    --box-bg: #ffffff;
+    --header-color: #9f9fed;
+    --divider-color: #dcc0e4;
+    --button-bg: #9f9fed;
+    --button-hover: #7f7fda;
+    --text-color: #0f174b;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  .vision-buddy-main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .vision-buddy-left-section {
+    flex: 1;
+  }
+  
+  .vision-buddy-search-container {
+    position: relative;
+    margin-top: 2rem;
+  }
+  
+  .vision-buddy-search-bar {
+    display: flex;
+    align-items: center;
+    background: var(--box-bg);
+    border: 1.5px solid var(--divider-color);
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  .vision-buddy-search-bar .vision-buddy-search-icon {
+    color: var(--header-color);
+    margin-right: 0.5rem;
+  }
+  
+  .vision-buddy-search-input {
+    border: none;
+    background: transparent;
+    flex: 1;
+    color: var(--text-color);
+    font-size: 0.9rem;
+  }
+  
+  .vision-buddy-search-input::placeholder {
+    color: var(--divider-color);
+    font-size: 0.9rem;
+  }
+  
+  /* Dropdown styles */
+  .vision-buddy-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border-radius: 8px;
+    border: 1px solid var(--divider-color);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-height: 200px;
+    overflow-y: auto;
+    margin-top: 0.5rem;
+    z-index: 100;
+  }
+  
+  .vision-buddy-dropdown-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem;
+    border-bottom: 1px solid var(--divider-color);
+  }
+  
+  .vision-buddy-dropdown-item:last-child {
+    border-bottom: none;
+  }
+  
+  .vision-buddy-dropdown-item span {
+    font-size: 0.9rem;
+  }
+  
+  .vision-buddy-button.add {
+    background: var(--button-bg);
+    color: #fff;
+    padding: 0.3rem 0.6rem;
+    font-size: 0.8rem;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .vision-buddy-button.add:hover {
+    background: var(--button-hover);
+  }
+  
+  .vision-buddy-button.remove {
+    background: #e28e69;
+    color: #fff;
+    padding: 0.3rem 0.6rem;
+    font-size: 0.8rem;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .vision-buddy-button.remove:hover {
+    background: #e28e69;
+  }
+  
+  .vision-buddy-right-section {
+    flex: 2;
+    padding-left: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  .vision-buddy-white-box {
+    background: var(--box-bg);
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+  }
+  
+  .vision-buddy-section {
+    margin-bottom: 2rem;
+  }
+  
+  .vision-buddy-section-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .vision-buddy-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .vision-buddy-avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    margin-right: 1rem;
+  }
+  
+  .vision-buddy-name {
+    flex: 1;
+    font-size: 1rem;
+    color: var(--text-color);
+  }
+  
+  .vision-buddy-clear-button {
+    background: transparent;
+    border: none;
+    color: var(--header-color);
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  
+  .vision-buddy-clear-button:hover {
+    text-decoration: underline;
+  }
+  
+  .vision-buddy-notifications-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .vision-buddy-trash-icon {
+    font-size: 1rem;
+    margin-right: 0.5rem;
+  }
+  
+  .vision-buddy-divider {
+    border-top: 1px solid var(--divider-color);
+    margin: 1.5rem 0;
+  }
+  
+  .vision-buddy-user-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .vision-buddy-user-header h1 {
+    font-size: 1.5rem;
+    color: var(--text-color);
+    margin: 0;
+  }
+  
+  .vision-buddy-profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .vision-buddy-main-container {
+      flex-direction: column;
+    }
+  
+    .vision-buddy-left-section,
+    .vision-buddy-right-section {
+      width: 100%;
+    }
+  
+    .vision-buddy-right-section {
+      padding-left: 0;
+    }
+  }
+  

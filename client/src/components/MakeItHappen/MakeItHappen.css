@@ -1,0 +1,245 @@
+.make-it-happen-container {
+    background-color: #fdf7ff; 
+    padding: 40px;
+    
+}
+
+.main-title {
+    color: #6b00b6; 
+    font-size: 3rem; 
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700; 
+    letter-spacing: 1px; 
+}
+
+.sub-title {
+    color: #8e44ad;
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: 50px; 
+    line-height: 1.5;
+}
+
+.vision-board-selection-container {
+    padding: 50px;
+    border-radius: 25px;
+    max-width: 900px;
+    margin: 60px auto;
+    text-align: center;
+    
+}
+
+
+.vision-board-main-title-select {
+    color: #6b00b6;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.vision-board-subtitle-select {
+    color: #8e44ad;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.vision-board-options-select {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.vision-board-option {
+    background: #e0c3fc;
+    border: 2px solid #6b00b6;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 25px 40px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #4b0082;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    width: 250px;
+}
+
+.vision-board-option:hover {
+    background: #d1b3ff;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(107, 0, 182, 0.2);
+}
+
+.vision-board-title-select {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #6b00b6;
+    margin-bottom: 15px;
+}
+
+.vision-board-thumbnail-select {
+    height: 120px;
+    width: 100%;
+    background: #f9f0ff;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.steps-vision-container {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.steps-container {
+    flex: 2;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.steps-title {
+    font-size: 1.8rem;
+    color: #6b00b6;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+.step {
+    background: #f5eaff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 25px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.step:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(107, 0, 182, 0.15);
+}
+
+.checkbox {
+    accent-color: #ff8b94;
+    cursor: pointer;
+    transform: scale(1.3);
+}
+
+.step-number {
+    font-weight: bold;
+    color: #6b00b6;
+    font-size: 1.3rem;
+    margin-right: 10px;
+}
+
+.due-date-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.due-date-label {
+    font-weight: 600;
+    color: #6b00b6;
+    font-size: 1.2rem;
+}
+
+.due-date-time {
+    color: #8e44ad;
+    font-size: 1.1rem;
+    background-color: #f9f0ff;
+    padding: 8px 16px;
+    border-radius: 12px;
+}
+
+.vision-board-container-content {
+    flex: 1;
+    background: #e0c3fc;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.vision-board-title-makeit {
+    color: #6b00b6;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.vision-board-makeit {
+    height: 180px;
+    background: #d1b3ff;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    border: 2px dashed #8e44ad;
+}
+
+.buttons-container-makeit {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.edit-steps-button-makeit,
+.save-steps-button-makeit {
+    background: #6b00b6;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background 0.3s, transform 0.2s;
+    margin-top: 10px;
+}
+
+.edit-steps-button-makeit:hover,
+.save-steps-button-makeit:hover {
+    background: #500085;
+    transform: translateY(-4px);
+}
+
+.login-prompt {
+    text-align: center;
+    color: #6b00b6;
+    font-size: 1.2rem;
+    margin: 50px auto;
+}
+
+.login-prompt a {
+    color: #ff8b94;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.login-prompt a:hover {
+    text-decoration: underline;
+}
+
+@keyframes bounceIn {
+    0% {
+        transform: scale(0.95);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.is-editing .step-input,
+.is-editing .due-date-input {
+    animation: bounceIn 0.4s ease-in-out;
+}
+

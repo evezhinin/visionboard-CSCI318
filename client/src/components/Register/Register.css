@@ -1,0 +1,83 @@
+.Register {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 2.25rem;
+    padding-bottom: 4.5rem;
+}
+
+.register-container {
+    padding: 7rem;
+    background-color: white;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.Register h1 {
+    font-size: 3rem;
+    color: #895f39;
+}
+
+.register-image {
+    width: 15rem;
+}
+
+.info-register-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 17rem;
+}
+
+input {
+    width: 17rem;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+.register-button {
+    width: 17rem;
+    padding: 0.55rem;
+    background-color: #507d68;
+    color: white;
+    border-radius: 5px;
+    border: #507d68 2px solid;
+}
+
+.register-redirect {
+    all: unset;
+}
+
+@media (max-width: 425px) {
+    .register-container {
+        padding: 2rem 4rem;
+    }
+
+    .info-register-container {
+        width: 14rem;
+        font-size: 0.85rem;
+    }
+
+    .register-image {
+        width: 10rem;
+    }
+
+    .Register h1 {
+        font-size: 2.5rem;
+    }
+
+    input {
+        width: 14rem;
+    }
+
+    .register-button {
+        width: 14rem;
+    }
+}

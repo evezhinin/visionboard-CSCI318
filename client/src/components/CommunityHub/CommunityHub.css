@@ -1,0 +1,35 @@
+.community-hub {
+    padding: 20px;
+    background-color: #f7f3ff; /* Light lavender background */
+    border-radius: 20px;
+  }
+  
+  .community-hub-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .post-button {
+    padding: 10px 20px;
+    background-color: #dcc0e4; /* Thistle color */
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .post-button:hover {
+    background-color: #c49bcc; /* Darker Thistle */
+    transform: scale(1.05);
+  }
+  
+  .vision-board-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
